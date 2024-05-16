@@ -1,0 +1,34 @@
+{
+  "name": "cameraminecraft_bot",
+  "version": "1.0.0",
+  "description": "This is a program that works like a bot for Minecraft, simulating a camera in the game world, on the Internet, useful for YouTube, streaming, and the like, can work as an overlay stream for obs studio",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kazilsky/CameraBot_Minecraft.git"
+  },
+  "keywords": [
+    "Camera",
+    "Minecraft",
+    "Stream",
+    "Twitch",
+    "Youtube",
+    "record"
+  ],
+  "author": "Kazilsky",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Kazilsky/CameraBot_Minecraft/issues"
+  },
+  "homepage": "https://github.com/Kazilsky/CameraBot_Minecraft#readme",
+  "dependencies": {
+    "mineflayer": "^4.20.1",
+    "mineflayer-armor-manager": "^2.0.1",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-web-inventory": "^1.8.5",
+    "prismarine-viewer": "^1.28.0"
+  }
+}
